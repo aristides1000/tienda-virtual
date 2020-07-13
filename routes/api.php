@@ -13,7 +13,7 @@ use Illuminate\Http\Request;
 |
 */
 
-echo "Hola Mundo";
+echo "Hola Mundo y hola mundo otra vez";
 
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
